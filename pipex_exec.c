@@ -14,7 +14,7 @@
 
 void	pipex_exec(char **argv, char **envp)
 {
-	t_pipex	p;	
+	t_pipex	p;
 
 	ft_bzero(&p, sizeof(t_pipex));
 	if (pipe(p.tube) == -1)
